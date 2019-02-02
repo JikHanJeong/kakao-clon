@@ -10,10 +10,11 @@
       integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Chats</title>
   </head>
   <body>
-    <header>
+    <header class="top-header">
       <div class="header_top">
         <div class="header_column">
           <i class="fas fa-plane"></i> <i class="fas fa-wifi"></i>
@@ -40,64 +41,55 @@
     <main class="chats">
       <div class="search-bar">
         <i class="fa fa-search"></i>
-        <input type="text" placeholder="Find friends, chats, Plus Friends">
+        <input type="text" placeholder="Find friends, chats, Plus Friends" />
       </div>
       <ul class="chats_list">
         <li class="chats_chat">
           <a href="chat.html">
-           <div class="chat_content">
-             <img src="images/chapture.PNG" alt="">
-             <div class="chat_preview">
-               <h3 class="chat_user">LYNN</h3>
-               <span class="chat_last-message">Hello! This is the test message</span>
-             </div>
-           </div>
-           <span class="chat_date-time">
-             15:55
-           </span>
+            <div class="chat_content">
+              <img src="images/chapture.PNG" alt="" />
+              <div class="chat_preview">
+                <h3 class="chat_user">LYNN</h3>
+                <span class="chat_last-message"
+                  >Hello! This is the test message</span
+                >
+              </div>
+            </div>
+            <span class="chat_date-time"> 15:55 </span>
           </a>
         </li>
         <li class="chats_chat">
           <a href="chat.html">
-           <div class="chat_content">
-             <img src="images/chapture.PNG" alt="">
-             <div class="chat_preview">
-               <h3 class="chat_user">KaKaoTalk</h3>
-               <span class="chat_last-message">You logged into KaKaoTalk PC</span>
-             </div>
-           </div>
-           <span class="chat_date-time">
-             Jul 20
-           </span>
+            <div class="chat_content">
+              <img src="images/chapture.PNG" alt="" />
+              <div class="chat_preview">
+                <h3 class="chat_user">KaKaoTalk</h3>
+                <span class="chat_last-message"
+                  >You logged into KaKaoTalk PC</span
+                >
+              </div>
+            </div>
+            <span class="chat_date-time"> Jul 20 </span>
           </a>
         </li>
-
       </ul>
 
-      <div class="chat_btn">
-        <i class="fa fa-comment"></i>
-      </div>
-
+      <div class="chat_btn"><i class="fa fa-comment"></i></div>
     </main>
 
     <nav class="tab-bar">
       <a href="index.html" class="tab-bar_tab">
-        <i class="fa fa-user"></i>
-        <span class="tab-bar_title">Friends</span>
+        <i class="fa fa-user"></i> <span class="tab-bar_title">Friends</span>
       </a>
       <a href="chats.html" class="tab-bar_tab tab-bar_tab-selected">
-        <i class="fa fa-comment"></i>
-        <span class="tab-bar_title">Chats</span>
+        <i class="fa fa-comment"></i> <span class="tab-bar_title">Chats</span>
       </a>
       <a href="find.html" class="tab-bar_tab">
-        <i class="fa fa-search"></i>
-        <span class="tab-bar_title">Find</span>
+        <i class="fa fa-search"></i> <span class="tab-bar_title">Find</span>
       </a>
       <a href="more.html" class="tab-bar_tab">
-        <i class="fa fa-ellipsis-h"></i>
-        <span class="tab-bar_title">More</span>
+        <i class="fa fa-ellipsis-h"></i> <span class="tab-bar_title">More</span>
       </a>
     </nav>
-
   </body>
 </html>
