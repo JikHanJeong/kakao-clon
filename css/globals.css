@@ -4,7 +4,7 @@ body {
   padding-bottom: 65px;
 }
 
-main {
+main, .chat_btn {
   animation: 0.5s bodyPopIn ease-in-out;
 }
 
